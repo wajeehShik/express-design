@@ -1,0 +1,66 @@
+@media only screen and (max-width:1024px){
+    .top-section{
+        flex-direction: column;
+    } 
+    .save-btn{
+        align-self:center;
+      
+    }
+}
+@media only screen and (max-width:880px){
+    input{
+        width: 89vw;
+    }
+    .save-btn {
+        align-self: revert;
+      }
+.content-wrapper{
+   margin:35px auto;
+}
+    
+    .top-section{
+        flex-direction: column;
+    }
+    .top-section section{
+        font-size: 20px;
+    }
+    
+
+
+    .form-row{
+        display: flex;
+        flex-direction:column;
+        row-gap: 16px;
+    }
+    .form-row:first-child{
+        margin-bottom:0px;
+    
+    }
+    form{
+        display: flex;
+        flex-direction:column;
+        row-gap: 24px;
+    }
+    .form-group label{
+        font-size: .7em;
+    }
+    .bottom-section{
+        overflow:scroll;
+        padding: 0 45px;
+    }
+    table{
+font-size: 20px;
+    }
+    table thead{
+        font-size: .5em;
+    }
+    table thead tr th{
+        height: 17px;
+padding-bottom: 4px;
+    }
+    td{
+
+        font-size: .4em;
+        height: 60px;
+    }
+}
